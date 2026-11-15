@@ -1,0 +1,23 @@
+# SOME/IP Service Configuration
+
+SERVICE_ID = 0x1234
+INSTANCE_ID = 0x5678
+MAJOR_VERSION = 1
+MINOR_VERSION = 0
+
+# Method
+METHOD_ID_GET_SPEED = 0x0001
+
+# Event
+EVENT_ID_SPEED_CHANGED = 0x8001
+EVENT_GROUP_ID = 0x0001
+
+# Network configuration
+PROVIDER_IP = "127.0.0.1"
+PROVIDER_PORT = 3000
+
+CONSUMER_IP = "127.0.0.1"
+CONSUMER_PORT = 3002
+
+# Event notification interval
+EVENT_PERIOD = 2
